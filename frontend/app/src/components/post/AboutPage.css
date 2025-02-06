@@ -1,0 +1,79 @@
+/* AboutPage.css */
+
+.about-page {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text for contrast */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 2rem; /* Increased top padding */
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 4rem; /* Additional padding at the top */
+  min-height: 200px; /* Ensures header area is not cut off */
+}
+
+.about-title {
+  font-size: 2.5rem;
+  color: #4caf50; /* Optional: Greenish color for title */
+  margin-bottom: 1rem;
+}
+
+.about-description {
+  font-size: 1.25rem;
+  max-width: 600px;
+  color: #ddd; /* Light gray for description text */
+}
+
+.cards-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem; /* Space between header and cards */
+}
+
+.person-card {
+  background-color: #1c1c1c; /* Dark gray background for card */
+  color: #fff;
+  width: 250px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.person-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.person-card img {
+  width: 100px; /* Set default width for avatar */
+  height: 100px; /* Set default height for avatar */
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.person-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4caf50; /* Green color for name */
+  margin-bottom: 0.5rem;
+}
+
+.person-role {
+  font-size: 1.1rem;
+  color: #bbb;
+  margin-bottom: 1rem;
+}
+
+.person-description {
+  font-size: 0.9rem;
+  color: #ddd;
+}
